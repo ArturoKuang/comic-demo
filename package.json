@@ -1,0 +1,9 @@
+{
+  "name": "cart-on-the-steppe",
+  "private": true,
+  "scripts": {
+    "build": "sh build.sh",
+    "preview": "npx --yes serve dist",
+    "deploy": "npm run build && npx --yes netlify-cli deploy --prod --dir dist"
+  }
+}
